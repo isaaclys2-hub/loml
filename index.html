@@ -3,24 +3,78 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>for my pookie</title>
+    <title>For You ❤️</title>
 
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    <div class="container">
-        <div class="box">
-            <img id="homecat" src="standing-kitty.gif"/>
-            <h2>do u luv me?</h2>
 
-            <div class="btns">
-                <button id="yes">Yes</button>
-                <button id="no">Nah</button>
-            </div>
+    <!-- Opening -->
+    <section class="hero">
+        <h1>Happy Valentine's Day</h1>
+        <p class="date">14 February</p>
+        <p class="intro">
+            I want to make you feel that you are the most special person in the world. Don't get bored while reading ya.
+        </p>
+        <p class="intro" id="intro1">
+            (This page exists only because you exist in my life).
+        </p>
+    </section>
+
+
+    <!-- Memories -->
+    <section class="memories">
+        <h2>A bit of err intro to my love <3</h2>
+
+        <div class="gallery">
+            <img src="images/pic1.jpg">
+            <img src="images/pic2.jpg">
+            <img src="images/pic3.jpg">
+            <img src="images/pic4.jpg">
+            <img src="images/pic5.jpg">
+            <img src="images/pic6.jpg">
         </div>
-    </div>
+    </section>
 
-    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
-    <script src="index.js"></script>
+
+    <!-- Message -->
+    <section class="letter">
+        <h2>A Small Letter</h2>
+
+        <p>
+            I still remember our first every chess game, and our first ever conversation.
+            I find it cute that you even have a crush on me for so long.
+        </p>
+
+        <p>
+            We’ve had stupid misunderstandings, silent nights,
+            and days where both of us were tired of texting,
+            but I never got tired of you.
+        </p>
+
+        <p>
+            You became a part of my daily life now and my life will be incomplete without
+            you. I will always put all my efforts in you no matter how bad our days are.
+        </p>
+        <p id="shortmessage">(they are a bit short but err nyeahh)</p>
+    </section>
+
+
+    <!-- Secret Button -->
+    <section class="final">
+        <h2>One last thing</h2>
+        <button onclick="showMessage()">Press this</button>
+
+        <p id="secretMessage">
+            I’m will always choose you.
+            <br><br>
+            <i style="font-size: medium;">— Monkey Isaac</i>
+        </p>
+    </section>
+
+<script src="index.js"></script>
+<div id="hearts-container"></div>
+
 </body>
 </html>
